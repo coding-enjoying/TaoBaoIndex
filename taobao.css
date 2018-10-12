@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+body,p,h3,ul{ margin:0; padding:0;}
+ul{ list-style:none;}
+a{ text-decoration:none; display:inline-block;}
+img{ vertical-align:middle;}
+.clearfix:after{content:"";	clear: both;display: block;}
+.clearfix{*zoom:1;}
+html{ font-size:62.5%;}
+.box{ width:1310px; margin:0 auto; border-bottom:1px solid #E3E3E3;}
+.search{ height:35px; border-bottom:1px solid #9C9C9C; padding:0 56px 0 73px; line-height:35px; background-color:#F7F7F7;}
+.search .sort{ font-size:14px; color:black; background:url(tri.jpg) no-repeat right center; padding-right:17px; margin-right:81px; float:left;}
+.search .searchBox{ height:28px; width:432px;font-size:12px; float:left; position:relative;}
+.search .searchBox span{ color:#323232; background:url(search.jpg) no-repeat 7px center; padding-left:32px; position:absolute; left:0; top:2px;}
+.search .searchBox a{ width:66px; line-height:24px; height:24px;border-left:1px solid #DCDCDC; text-align:center; color:#323232; background-color:#F8F8F8; position:absolute; right:2px; top:7px;}
+.search .searchBox a img{ width:11px; height:14px; position:absolute; top:6px; left:-19px;}
+.search .searchBox input{ width:428px; height:24px; border:2px solid #A40000; margin-top:4px; display:inline-block;}
+.search .car{ float:right; width:206px; height:35px; background:url(car.jpg) no-repeat 52px center; padding-left:72px; }
+.cont{ width:1200px; padding:0 55px;}
+.discont{ width:100%; height:53px; text-align:center;}
+.discont img{ width:1200px; height:53px;}
+.search1{ background:url(first.jpg) no-repeat left center; width:1200px; height:70px; margin-top:9px;}
+.search1 .searchBox{ height:30px; width:305px;font-size:12px; float:left; position:relative; margin:11px 0 0 205px;}
+.search1 .searchBox span{ color:#323232; background:url(search.jpg) no-repeat 7px center; padding-left:32px; position:absolute; left:0; top:12px;}
+.search1 .searchBox a{ width:66px; line-height:28px; height:28px;border-left:1px solid #DCDCDC; text-align:center; color:white; background-color:#E50011; position:absolute; right:-193px; top:6px;}
+.search1 .searchBox a img{ width:11px; height:14px; position:absolute; top:6px; left:-19px;}
+.search1 .searchBox input{ width:496px; height:26px; border:2px solid #E50011; margin-top:4px; display:inline-block;}
+.search1 .buyList{ float:left; width:76px; height:30px; background-color:#F6F6F6; border:1px solid #DEDEDE; line-height:32px; text-align:center; margin:15px 0 0 201px; color:black; font-weight:600;}
+.search1 .see{ float:right; width:84px; height:30px; border:1px solid #CB0000; background:url(one.jpg) no-repeat left center; padding-left:70px; line-height:32px; font-size:12px; color:black; margin-top:10px; text-align:center;}
+.cont .fl{ font-size:12px; padding:6px 0 0 205px; float:left;}
+.cont .fl a{ color:#989898;}
+.cont .title{ width:1200px; height:34px; line-height:34px; margin-top:45px;font-size:12px; }
+.cont .title p{ float:left; color:#323232; background:url(home.jpg) no-repeat center left; padding-left:25px;}
+.cont .title a{ float:right; padding-right:15px; color:#323232;}
+.cont .title a span{ color:#CB0000;}
+.cont .nav{ margin-bottom:39px;}
+.cont .nav .left{ float:left; width:203px; border:1px solid #DADADA;}
+.cont .nav .left h3{ height:32px; line-height:32px; font-size:14px; background-color:#F4F4F4; border-bottom:1px solid #DADADA; border-top:2px solid #CB0000; text-align:center; color:#323232; font-weight:600;}
+.cont .nav .left ul{ margin-top:1px;}
+.cont .nav .left ul li{ line-height:26px; font-size:12px;}
+.cont .nav .left ul li a{ color:#323232; text-align:center; width:205px;}
+.cont .nav .left ul li .col{ color:#CB0000;}
+.cont .nav .left ul li a span{ color:#B798B7;}
+.cont .nav .right{ float:right; width:963px; border:1px solid #DADADA; padding:0 10px 4px; font-size:12px;}
+.cont .nav .right li{ width:963px; border-bottom:1px solid #DADADA; padding-top:7px;}
+.cont .nav .right li .choice{ float:left; width:783px;} 
+.cont .nav .right li .choice .pp{ width:70px; text-align:right; color:#323232;float:left;}
+.cont .nav .right li .choice em{ font-style:normal; width:34px; height:16px; background-color:#CB0000; color:white; line-height:16px; text-align:center; display:inline-block; margin:0 20px 0 10px; float:left;}
+.cont .nav .right li .choice .name{ width:129px; height:23px; line-height:23px;}
+.cont .nav .right li .choice p{ width:649px; float:left;}
+.cont .nav .right li .many{ float:right; width:26px; height:16px; border:1px solid #DDDDDD; background-color:#F3F0F3; background:url(add.jpg) no-repeat 4px center; padding-left:16px; line-height:16px;}
+.cont .nav .right li .m{ margin-right:47px;}
+.cont .nav .right li .more{ float:right; margin-left:11px; background:url(more.jpg) no-repeat right center; padding-right:12px; color:#656565; padding-top:3px;}
+.cont .nav .leftBox{float:left; width:203px; margin-top:10px;}
+.cont .nav .leftBox .sg{ font-size:12px; padding-left:10px; color:#323232; height:28px; border:1px solid #DADADA; line-height:30px;border-bottom:none;}
+.cont .nav .leftBox .sg span{ color:#CB0000;}
+.cont .nav .leftBox .list{padding:12px 25px 0 16px; margin-bottom:10px; border:1px solid #DADADA; }
+.cont .nav .leftBox .list li{ border-bottom:1px solid #E3E3E3; width:162px; padding:12px 0; text-align:center;}
+.cont .nav .leftBox .list li img{ width:118px; height:112px;}
+.cont .nav .leftBox .list li p{ font-size:12px; margin:5px 0 25px;}
+.cont .nav .leftBox .list li span{ font-size:9px; color:#CB0000;}
+.cont .nav .leftBox .list li em{ font-style:normal; color:#989898; text-decoration:line-through; margin-left:8px;}
+.cont .nav .rightBox{ width:985px; float:right; margin-top:10px;}
+.cont .nav .rightBox .cond{ width:983px; height:30px; border:1px solid #DADADA; border-top:2px solid #CB0000; background-color:#F4F4F4; font-size:12px;}
+.cont .nav .rightBox .cond .zb{ width:677px; float:left;}
+.cont .nav .rightBox .cond .zb a{ height:30px; padding:0 21px; line-height:30px; color:#323232; border-right:1px solid #DADADA;}
+.cont .nav .rightBox .cond .zb a:hover{ background-color:white;}
+.cont .nav .rightBox .cond .zb a em{background:url(arry.jpg) no-repeat right center; padding-right:4px; width:7px; height:8px; display:inline-block;}
+.cont .nav .rightBox .cond .zb .col{ color:#CB0000;}
+.cont .nav .rightBox .cond .zb a .price{ width:7px; height:11px; background:url(price.jpg) no-repeat right center; padding-right:4px; display:inline-block;}
+.cont .nav .rightBox .cond .zb span{ height:30px; display:inline-block; padding:0 9px; line-height:30px; border-right:1px solid #DADADA;}
+.cont .nav .rightBox .cond .zb span b{ display:inline-block; width:32px; height:16px; border:1px solid #DADADA; background-color:white; vertical-align:middle; line-height:16px; font-style:normal; color:#B4B4B4;}
+.cont .nav .rightBox .cond .zb i{ font-style:normal; padding:0 13px 0 20px; height:30px; line-height:30px; color:#323232;border-right:1px solid #DADADA; display:inline-block;}
+.cont .nav .rightBox .cond .zb i input{ vertical-align:middle;}
+.cont .nav .rightBox .cond .yb{ width:80px; float:right; height:30px; line-height:30px;}
+.cont .nav .rightBox .cond .yb a{ width:16px; height:16px; background:no-repeat center center; border:1px solid #DADADA; vertical-align:middle;}
+.cont .nav .rightBox .cond .yb a:hover{ background-color:white;}
+.cont .nav .rightBox .cond .yb .a1{ background-image:url(left.jpg); margin:0 5px 0 9px;}
+.cont .nav .rightBox .cond .yb .a2{ background-image:url(right.jpg);}
+.cont .nav .rightBox .list1{ width:960px; padding:30px 14px 0;}
+.cont .nav .rightBox .list1 .li{ padding-bottom:29px; border-bottom:1px solid#DADADA; margin-bottom:30px;}
+.cont .nav .rightBox .list1 .noM{ margin-bottom:0;}
+.cont .nav .rightBox .list1 li .list2{ margin-right:-40px;}
+.cont .nav .rightBox .list1 li .list2 li{ margin-right:40px; width:200px; float:right;}
+.cont .nav .rightBox .list1 li .list2 li .pic{ width:200px; height:196px; position:relative;}
+.cont .nav .rightBox .list1 li .list2 li .pic img{ width:200px; height:196px;}
+.cont .nav .rightBox .list1 li .list2 li .pic b{ width:54px; height:54px; position:absolute; top:0; right:0; background:url(hot.jpg) no-repeat right top;}
+.cont .nav .rightBox .list1 li .list2 li .desc{ line-height:20px; color:#323232; margin:13px 0 8px;}
+.cont .nav .rightBox .list1 li .list2 li p{ height:24px;}
+.cont .nav .rightBox .list1 li .list2 li p .new{ color:#D63600; float:left; margin-right:9px; font-weight:600;}
+.cont .nav .rightBox .list1 li .list2 li p .old{ color:#989898; float:left; font-size:10px; font-style:normal; text-decoration:line-through; font-weight:600;}
+.cont .nav .rightBox .list1 li .list2 li p a{ float:right; color:#656565; text-decoration:underline;}
+.cont .nav .rightBox .list1 li .list2 li .down{ color:#CB0000; font-size:12px; display:inline-block;}
+.cont .nav .rightBox .list1 li .list2 li img{ width:41px; height:14px; margin:12px 0 19px; display:block;}
+.cont .nav .rightBox .list1 li .list2 li .btn{ width:11px; height:11px; display:inline-block; border:1px solid #CECECE; line-height:13px; font-size:7px; color:#434343; text-align:center; font-style:normal;}
+.cont .nav .rightBox .list1 li .list2 li input{ width:28px; height:16px; border:1px solid #CECECE; margin:0 3px; text-align:center;}
+.cont .nav .rightBox .list1 li .list2 li .buy{ width:74px; height:22px; background-color:#F78A21; border:1px solid #FA6923; line-height:24px; text-align:center; color:white; margin-left:6px;}
+.cont .nav .leftBox .list .last{ border-bottom:none;}
+.cont .nav .leftBox .hot{font-size:12px; padding-left:10px; color:#323232; height:28px; border:1px solid #DADADA; line-height:30px; border-bottom:none;}
+.cont .nav .leftBox .tit{ height:29px; border:1px solid #DADADA;font-size:12px; border-bottom:none; line-height:29px;}
+.cont .nav .leftBox .tit h3{ font-size:12px; color:#323232; padding-left:11px; float:left;}
+.cont .nav .leftBox .tit a{ float:right; padding-right:6px; color:#989898;}
+.cont .nav .leftBox .list3{border:1px solid #DADADA; margin-bottom:10px;}
+.cont .nav .leftBox .list3 .first{ padding:10px 8px 16px 10px; border-bottom:1px solid #DADADA; font-size:10px; }
+.cont .nav .leftBox .list3 .first .tp{ width:170px; height:110px; position:relative; text-align:center;}
+.cont .nav .leftBox .list3 .first p{ font-size:12px; color:#323232; margin:16px 0 9px;}
+.cont .nav .leftBox .list3 .first .tp img{ width:42px; height:110px;}
+.cont .nav .leftBox .list3 .first .tp span{ width:25px; height:25px; position:absolute; left:0; top:0; background:url(xl.jpg)}
+.cont .nav .leftBox .list3 .first span{ color:#CB0000;margin-right:8px; font-weight:600;}
+.cont .nav .leftBox .list3 .first em{ color:#989898; font-style:normal; text-decoration:line-through; font-weight:600;}
+.cont .nav .leftBox .list3 .other{ padding:10px 12px 10px 10px; border-bottom:1px solid #DADADA; width:181px;}
+.cont .nav .leftBox .list3 .other .tw{ width:63px; height:57px; position:relative; float:left; border:1px solid #DADADA; text-align-last:center; padding-top:6px;}
+.cont .nav .leftBox .list3 .other .tw img{ width:31px; height:55px;}
+.cont .nav .leftBox .list3 .other .tw em{ width:20px; height:20px; position:absolute; left:0; top:0; background:url(gxl.jpg) no-repeat left top;}
+.cont .nav .leftBox .list3 .other .xx{ width:100px; float:right; font-size:12px; color:#323232;}
+.cont .nav .leftBox .list3 .other .xx p{ line-height:20px; margin-bottom:5px;}
+.cont .nav .leftBox .list3 .other .xx span{color:#CB0000;margin-right:8px; font-weight:600;}
+.cont .nav .leftBox .list3 .other .xx em{color:#989898; font-style:normal; text-decoration:line-through; font-weight:600;}
+.cont .nav .leftBox .ad{ width:203px; height:88px; border:1px solid #DADADA; margin-bottom:10px;}
+.cont .nav .rightBox .page{ margin:10px 0; text-align:right; height:26px;}
+.cont .nav .rightBox .page a{ height:24px; line-height:24px; border:1px solid #DADADA; padding:0 8px; margin-right:5px; color:#323232; font-size:12px; color:#323232;}
+.cont .nav .rightBox .page a:hover{ background-color:#FEE2E2; border-color:#CB0000;}
+.cont .nav .rightBox .page .next{ padding:0 15px 0 5px; background:url(rtri.jpg) no-repeat 46px center;}
+.cont .nav .rightBox .page .all{ margin:0 9px 0 8px;}
+.cont .nav .rightBox .page .num{ margin-right:6px;}
+.cont .nav .rightBox .page input{ width:26px; height:18px; border:1px solid #DADADA;}
+.cont .nav .rightBox .page .sure{ background:url(bg.jpg) repeat-x left top; padding:0 6px; border:1px solid #989898; height:18px; line-height:18px; margin-top:3px;}
+.cont .nav .rightBox .bottomS{ background-color:#F4F4F4; border:1px solid #E6E6E6; width:100%; text-align:center; padding:12px 0;}
+.cont .nav .rightBox .bottomS .up{ position:relative; margin-bottom:12px;}
+.cont .nav .rightBox .bottomS .up span{ padding-top:5px; font-size:14px; color:#323232;}
+.cont .nav .rightBox .bottomS .up input{ width:344px; height:26px; border:1px solid #CBCBCB; border-right:none; background:url(search.jpg) no-repeat 6px center; padding-left:20px; background-color:white;} 
+.cont .nav .rightBox .bottomS .up a{ font-size:14px; color:white; width:60px; height:28px; background:url(jb.jpg) repeat-x left top; line-height:28px; text-align:center;}
+.cont .nav .rightBox .bottomS .up em{ display:inline-block; width:11px; height:14px; position:absolute; background:url(voice.jpg) no-repeat ; top:9px; right:320px;}
+.cont .nav .rightBox .bottomS .down a{ margin-right:18px;}
+.cont .nav .rightBox h3{ height:38px; background:url(jianbian.jpg) repeat-x left top; padding-left:23px; border:1px solid #DADADA; border-left:0; border-right:0; line-height:40px; margin:10px 0 0 0;}
+.cont .nav .rightBox .listL{ padding:17px 22px 42px 19px; margin-right:-36px;}
+.cont .nav .rightBox .listL li{ float:left; margin-right:36px; width:160px; text-align:center;}
+.cont .nav .rightBox .listL li p{ font-size:12px; line-height:20px;}
+.cont .nav .rightBox .listL li .ms a{color:#323232;}
+.cont .nav .rightBox .listL li .ms span{ color:#D60000;}
+.cont .nav .rightBox .listL li .jg{ height:20px;}
+.cont .nav .rightBox .listL li .jg span{ color:#D60000; margin-right:8px; float:left;}
+.cont .nav .rightBox .listL li .jg em{ font-style:normal; float:left; color:#989898;}
+.cont .nav .rightBox .listL li .jg a{ color:#989898; float:right;}
+.cont .pro{ padding:13px 255px;}
+.cont .pro a{ margin-right:111px; font-size:14px; color:#656565; background:url(by.png) no-repeat left center; padding-left:63px; height:28px; line-height:28px;}
+.footer{width:1310px; text-align:center; font-size:12px;color:#7C6594;}
+.footer .about{ height:40px; line-height:40px;}
+.footer a{ color:#7C6594;}
+.footer span{ margin:0 11px; display:inline-block;color:#7C6594;}
+.footer .legal{ color:#323232;}
+.footer .address{ margin:15px 0 26px;}
+.footer .bank img{ width:90px; height:31px; margin:0 10px 36px 0;}
+
